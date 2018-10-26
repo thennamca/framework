@@ -1,0 +1,193 @@
+{
+	"id": "dd46df14-63b8-28ad-d387-70203656cabc",
+	"name": "coats",
+	"description": "",
+	"order": [
+		"3cfc75fe-1dab-6fd1-687b-ffb244b45a58",
+		"22cb5d3a-e3e7-8547-dd1d-660ecd5e48bc",
+		"49f71bf0-fd8c-ab81-fcd6-25fa82a8c59b",
+		"f534fee7-83f3-072c-f964-16381cfada1e",
+		"c349a5f6-90fe-2b3f-96a9-1e0789b39580",
+		"1920a83d-50c1-036e-54f1-3691e821a6d2",
+		"98edecf1-3bbb-b945-8bec-676a1c3597bd"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1535434299651,
+	"owner": "141681",
+	"public": false,
+	"requests": [
+		{
+			"id": "1920a83d-50c1-036e-54f1-3691e821a6d2",
+			"url": " http://localhost:8080/tables/coats_reseller_bulk_order",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "content-type: application/json\n",
+			"headerData": [
+				{
+					"key": "content-type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": " http://localhost:8080/tables/coats_reseller_bulk_order",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "dd46df14-63b8-28ad-d387-70203656cabc",
+			"rawModeData": "{  \r\n   \"bulkOrderId\": 60000,\r\n   \"orderLine\": 888,\r\n   \"sourceId\": 555,\r\n   \"orderNo\": \"6666-1000\",\r\n   \"salesOrgId\": 555,\r\n   \"customerId\": 999,\r\n   \"requesterId\": 56464,\r\n   \"shipToPartyId\": 777,\r\n   \"buyerId\": 444,\r\n   \"poNumber\": \" PO-rrrrrr\",\r\n   \"surchargeValue\": \"4444-7666 \",\r\n   \"discountValue\":\"D-6777 \",\r\n   \"netValue\":\"N-410 \",\r\n   \"currency\":\"aaa \",\r\n   \"statusId\":4444,\r\n   \"soNumber\": 45454,\r\n   \"created\":\"asfsaf\",\r\n   \"createdUserId\": 465,\r\n   \"updated\":\"fds\",\r\n   \"deleted\":true,\r\n   \"version\":\"Initial \"\r\n}"
+		},
+		{
+			"id": "22cb5d3a-e3e7-8547-dd1d-660ecd5e48bc",
+			"url": " http://localhost:8080/tables/coats_reseller_bulk_order/5",
+			"queryParams": [],
+			"method": "PUT",
+			"headers": "content-type: application/json\n",
+			"headerData": [
+				{
+					"key": "content-type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": " http://localhost:8080/tables/coats_reseller_bulk_order/5",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "dd46df14-63b8-28ad-d387-70203656cabc",
+			"rawModeData": "{  \r\n   \"bulkOrderId\": 2222,\r\n   \"orderLine\": 333,\r\n   \"sourceId\": 444,\r\n   \"orderNo\": \"6666\",\r\n   \"salesOrgId\": 555,\r\n   \"customerId\": 999,\r\n   \"requesterId\": 56464,\r\n   \"shipToPartyId\": 777,\r\n   \"buyerId\": 444,\r\n   \"poNumber\": \" PO-85444\",\r\n   \"surchargeValue\": \"4444-7666 \",\r\n   \"discountValue\":\"D-6777 \",\r\n   \"netValue\":\"N-410 \",\r\n   \"currency\":\"aaa \",\r\n   \"statusId\":4444,\r\n   \"soNumber\": 45454,\r\n   \"created\":\"test\",\r\n   \"createdUserId\": 465,\r\n   \"updated\":\"fds\",\r\n   \"deleted\":true,\r\n   \"version\":\"1 \"\r\n}"
+		},
+		{
+			"id": "3cfc75fe-1dab-6fd1-687b-ffb244b45a58",
+			"url": " http://localhost:8080/tables/coats_reseller_bulk_order/5",
+			"queryParams": [],
+			"method": "PUT",
+			"headers": "content-type: application/json\n",
+			"headerData": [
+				{
+					"key": "content-type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": " http://localhost:8080/tables/coats_reseller_bulk_order/5",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "dd46df14-63b8-28ad-d387-70203656cabc",
+			"rawModeData": "{  \r\n   \"bulkOrderId\": 5555,\r\n   \"orderLine\": 333,\r\n   \"sourceId\": 444,\r\n   \"orderNo\": \"6666\",\r\n   \"salesOrgId\": 555,\r\n   \"customerId\": 999,\r\n   \"requesterId\": 56464,\r\n   \"shipToPartyId\": 777,\r\n   \"buyerId\": 444,\r\n   \"poNumber\": \" PO-85444\",\r\n   \"surchargeValue\": \"4444-7666 \",\r\n   \"discountValue\":\"D-6777 \",\r\n   \"netValue\":\"N-410 \",\r\n   \"currency\":\"aaa \",\r\n   \"statusId\":4444,\r\n   \"soNumber\": 45454,\r\n   \"created\":\"test\",\r\n   \"createdUserId\": 465,\r\n   \"updated\":\"fds\",\r\n   \"deleted\":true,\r\n   \"version\":\"1 \"\r\n}"
+		},
+		{
+			"id": "49f71bf0-fd8c-ab81-fcd6-25fa82a8c59b",
+			"url": " http://localhost:8080/tables/coats_reseller_bulk_order/9",
+			"queryParams": [],
+			"method": "DELETE",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": " http://localhost:8080/tables/coats_reseller_bulk_order/9",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "dd46df14-63b8-28ad-d387-70203656cabc"
+		},
+		{
+			"id": "98edecf1-3bbb-b945-8bec-676a1c3597bd",
+			"url": " http://localhost:8080/tables/coats_reseller_bulk_order",
+			"queryParams": [],
+			"method": "GET",
+			"headers": "content-type: application/json\n",
+			"headerData": [
+				{
+					"key": "content-type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": " http://localhost:8080/tables/coats_reseller_bulk_order",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "dd46df14-63b8-28ad-d387-70203656cabc",
+			"rawModeData": "{  \r\n   \"bulkOrderId\": 100,\r\n   \"orderLine\": 333,\r\n   \"sourceId\": 444,\r\n   \"orderNo\": \"ABC-1000\",\r\n   \"salesOrgId\": 555,\r\n   \"customerId\": 999,\r\n   \"requesterId\": 9888,\r\n   \"shipToPartyId\": 777,\r\n   \"buyerId\": 444,\r\n   \"poNumber\": \" PO-765\",\r\n   \"surchargeValue\": \"SV-7666 \",\r\n   \"discountValue\":\"D-6777 \",\r\n   \"netValue\":\"N-netvalue \",\r\n   \"currency\":\"Currnnnnnnnn \",\r\n   \"statusId\":6666,\r\n   \"soNumber\": 45454,\r\n   \"created\":\"thennarasu\",\r\n   \"createdUserId\": 465,\r\n   \"updated\":\"thennarasu \",\r\n   \"deleted\":true,\r\n   \"version\":\"Initial \"\r\n}"
+		},
+		{
+			"id": "c349a5f6-90fe-2b3f-96a9-1e0789b39580",
+			"url": " http://localhost:8080/tables/coats_reseller_bulk_order",
+			"queryParams": [],
+			"method": "GET",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": " http://localhost:8080/tables/coats_reseller_bulk_order",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "dd46df14-63b8-28ad-d387-70203656cabc"
+		},
+		{
+			"id": "f534fee7-83f3-072c-f964-16381cfada1e",
+			"url": " http://localhost:8080/tables/coats_reseller_bulk_order/8",
+			"queryParams": [],
+			"method": "DELETE",
+			"headers": "",
+			"headerData": [],
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"preRequestScript": null,
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": " http://localhost:8080/tables/coats_reseller_bulk_order/8",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "dd46df14-63b8-28ad-d387-70203656cabc"
+		}
+	]
+}

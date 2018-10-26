@@ -1,0 +1,13 @@
+{
+	"productName" : "Innometer",
+	"productOwner" : "Techmango pvt ltd",
+	"customerName": "ABC",
+	"activationDate":"2018-08-07" ,
+	"expiryDate": "2018-08-10",
+	"dailyCount": "0",
+	"validatityInDays": "5",
+	"activated":"false",
+	"ipAddress": "10.10.1.16" ,
+	"macAddress":"08-62-66-2C-6B-4C" ,
+	"hostName":"SMI-281"
+}

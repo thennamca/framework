@@ -1,0 +1,9 @@
+javac SystemInfo.java
+java SystemInfo
+jar -cvf SystemInfo.jar SystemInfo.class
+java -cp SystemInfo.jar SystemInfo
+
+
+javac -cp "E:/ZKM/jar/java-json.jar;" JsonCreation.java
+java -cp "E:/ZKM/jar/java-json.jar;" JsonCreation C://Users/smi-user/Desktop/Certificate/json/licence.json
+jar -cvf jsonCreation.jar JsonCreation.class

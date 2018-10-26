@@ -1,0 +1,24 @@
+javac SystemInfo.java
+java SystemInfo
+jar -cvf SystemInfo.jar SystemInfo.class
+java -cp SystemInfo.jar SystemInfo
+
+
+javac -cp "E:/ZKM/jar/java-json.jar;" JsonCreation.java
+java -cp "E:/ZKM/jar/java-json.jar;" JsonCreation C://Users/smi-user/Desktop/Certificate/json/licence.json
+jar -cvf jsonCreation.jar JsonCreation.class
+
+
+
+jar cvfm C:/Users/smi-user/Desktop/latest-jar/certificate-decryption.jar manifest.txt CertificateFileDecryption.java lib/*
+
+
+jar cvfm C:/Users/smi-user/Desktop/latest-jar/certificate-decryption.jar D:/innometer/workspace/Test/src/manifest.txt     CertificateFileDecryption.class lib/*
+
+jar cvfm C:/Users/smi-user/Desktop/latest-jar/certificate-generation.jar D:/innometer/workspace/Test/src/manifest.txt  CertificateFileGeneration.class lib/*
+
+
+jar cvfm C:/Users/smi-user/Desktop/latest-jar/jsonCreation.jar D:/innometer/workspace/Test/src/manifest.txt  JsonCreation.class lib/*
+
+
+jar cvfm C:/Users/smi-user/Desktop/latest-jar/SystemInfo.jar D:/innometer/workspace/Test/src/manifest.txt  SystemInfo.class lib/*

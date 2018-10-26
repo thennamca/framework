@@ -1,0 +1,35 @@
+JAR run
+
+java -jar certificate-decryption.jar C://Users/smi-user/Desktop/Certificate/innometer.cert techmangolocal12
+
+
+java -jar certificate-generation.jar C://Users/smi-user/Desktop/Certificate/certificate.json C://Users/smi-user/De
+sktop/Certificate/innometer.cert techmangolocal12
+
+
+java -jar SystemInfo.jar
+
+
+java -jar jsonCreation.jar C://Users/smi-user/Desktop/Certificate/json/licence.json
+
+
+
+
+
+
+
+
+
+jar cvf Count.jar Count.class
+
+java -cp "E:/ZKM/jar/common-lang3.jar;E:/ZKM/jar/commons-codec-1.10.jar;E:/ZKM/jar/java-json.jar;" CertificateFileDecryption C:/
+/Users/smi-user/Desktop/Certificate/innometer.cert techmangolocal12
+
+java -cp "E:/ZKM/jar/common-lang3.jar;E:/ZKM/jar/commons-codec-1.10.jar;E:/ZKM/jar/java-json.jar;" certificate-decryption.jar  C://Users/smi-user/Desktop/Certificate/innometer.cert techmangolocal12
+
+
+javac -cp "E:/ZKM/jar/common-lang3.jar;E:/ZKM/jar/commons-codec-1.10.jar;E:/ZKM/jar/java-json.jar;" CertificateFileDecryption.java
+
+
+java -cp system.jar SystemInfo
+
